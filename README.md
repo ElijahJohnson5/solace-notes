@@ -9,6 +9,7 @@ Very basic notes app that allows you to create, update and delete notes.
 * Font awesome for the two icons
 * Zod for validation
 * Tailwind css for styling
+* Daisy UI on top of Tailwind CSS
 
 
 
@@ -24,3 +25,10 @@ Very basic notes app that allows you to create, update and delete notes.
 
 ### You can also view the app here
 https://solace-note-app.fly.dev/
+
+
+## Future Improvements
+* Make the UI look good on phones (it works on most screens besides phones)
+* Convert to postgres instead of sqlite
+* Add authentication so you can only access your notes
+* Add unit tests
