@@ -126,7 +126,7 @@ function Editing({ note, setEditing, handleDelete }: EditingProps) {
           <input type="text" name="name" value={name} onInput={handleNameInput} placeholder="Type here" className={`input input-bordered w-full max-w-72 ${nameError ? 'input-error' : ''}`} />
           {nameError && <span className="label-text text-error">{nameError}</span>}
         </div>
-        <div className="flex space-x-4 ml-auto">
+        <div className="flex space-x-4 !ml-auto">
           <button type="submit"><FaSave size={28} /></button> 
           <button onClick={handleCancelClicked} type="button"><FaBan size={28} /></button>
           <button onClick={handleDelete}><FaTrash size={28} /></button>
