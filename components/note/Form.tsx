@@ -1,6 +1,5 @@
 'use client';
 
-import { insertNoteSchema } from '@/db/notes/validation';
 import { useRouter } from 'next/navigation';
 import { FormEventHandler, useState } from 'react';
 import { validateForm } from './form';

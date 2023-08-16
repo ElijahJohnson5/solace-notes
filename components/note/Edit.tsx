@@ -1,7 +1,7 @@
 'use client';
 
 import { Note } from "@/db/notes/schema";
-import React, { FormEventHandler, useCallback, useEffect, useState } from "react";
+import React, { FormEventHandler, useEffect, useState } from "react";
 import { FaBan, FaPenSquare, FaSave, FaTrash } from 'react-icons/fa';
 import { validateForm } from "./form";
 import { useRouter } from "next/navigation";

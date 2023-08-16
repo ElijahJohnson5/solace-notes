@@ -1,6 +1,4 @@
-import { NewNote, Note } from "@/db/notes/schema";
-import { insertNoteSchema, selectNoteSchema } from "@/db/notes/validation";
-import { SafeParseReturnType, inferFlattenedErrors } from "zod";
+import { insertNoteSchema } from "@/db/notes/validation";
 
 export const validateForm = (
   data: Record<string, any>, 

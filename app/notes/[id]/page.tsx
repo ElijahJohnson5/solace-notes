@@ -1,5 +1,4 @@
 import Edit from "@/components/note/Edit";
-import Note from "@/components/note/Note";
 import db from "@/db";
 import { notes } from "@/db/notes/schema";
 import { eq } from "drizzle-orm";
